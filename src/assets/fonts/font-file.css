@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Futura LT Book";
+  src: url("./FuturaLT-Book.ttf") format("opentype");
+}
+
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./HelveticaNeue.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("./Roboto-Regular.ttf") format("opentype");
+}
+
+* {
+  font-family: "Futura LT Book", "Helvetica Neue", "Roboto Regular";
+  text-rendering: optimizeLegibility;
+}
